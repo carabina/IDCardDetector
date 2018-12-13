@@ -27,3 +27,4 @@ VandanaPansuria, vandanapansuria@gmail.com
 ## License
 
 IDCardDetector is available under the MIT license. See the LICENSE file for more info.
+# IDCardDetector
