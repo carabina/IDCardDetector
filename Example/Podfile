@@ -1,7 +1,13 @@
 use_frameworks!
+target 'IDCardDetector_Example' do
+    pod 'IDCardDetector', :path => '../'
+    pod 'Alamofire'
+    pod 'SwiftyJSON'
+    pod 'IQKeyboardManagerSwift'
+    pod 'NVActivityIndicatorView'
+    pod 'FaceCropper'
 target 'IDCardDetector_Tests' do
-  pod 'IDCardDetector', :path => '../'
+  inherit! :search_paths
   
-  pod 'Quick', '~> 1.2.0'
-    pod 'Nimble', '~> 7.0.2'
+end
 end

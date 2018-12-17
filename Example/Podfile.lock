@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (4.8.0)
+  - FaceCropper (1.0.0)
+  - IDCardDetector (0.1.0):
+    - Alamofire
+    - FaceCropper
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
+    - SwiftyJSON
+  - IQKeyboardManagerSwift (6.2.0)
+  - NVActivityIndicatorView (4.4.1):
+    - NVActivityIndicatorView/Presenter (= 4.4.1)
+  - NVActivityIndicatorView/Presenter (4.4.1)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - FaceCropper
+  - IDCardDetector (from `../`)
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - FaceCropper
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  IDCardDetector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  FaceCropper: 5037221c279db6ae3cea68e76ac4165c85c7c291
+  IDCardDetector: 2061db61c07fca6ac6eec2813c5264a8f7ffd426
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  NVActivityIndicatorView: f0a6b0ed2973d9544da268f4eb76696f0a9577b0
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: c47a495582d7c16ba3201565d760417c2a878ae5
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module Pods_IDCardDetector_Example {
+  umbrella header "Pods-IDCardDetector_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module IDCardDetector {
+  umbrella header "IDCardDetector-umbrella.h"
+
+  export *
+  module * { export * }
+}
